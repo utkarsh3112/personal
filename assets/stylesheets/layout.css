@@ -13,7 +13,106 @@
 .row3, .row3 a{}
 .row4, .row4 a{}
 .row5, .row5 a{}
+/* Contact Form */
+.content{
+	padding: 50px 100px;
+}
+.content h2{
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 30px;
 
+}
+.content p{
+	font-size: 18px;
+}
+.sidebar-contact{
+	position: fixed;
+	top:30%;
+	left:-350px;
+	/*transform: translate(-50%);*/
+	transition: .5s;
+	width: 350px;
+	height: auto;
+	padding: 40px;
+	background:#fff;
+	box-shadow: 0 20px 50px rgba(0,0,0,.5);
+	box-sizing: border-box;
+}
+.sidebar-contact textarea,.sidebar-contact input{
+	width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.5);
+    outline: none;
+}
+.sidebar-contact h2{
+	margin:0 0 20px;
+	padding: 0;
+
+}
+.sidebar-contact textarea{
+	height: 60px;
+	resize: none;
+}
+.sidebar-contact input[type="submit"]{
+	background: #00bcd4;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	font-style: 18px;
+}
+.toggle{
+	position: absolute;
+	top: 0;
+	right: -48px;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	cursor: pointer;
+	background: #f00;
+}
+.toggle:before{
+	content: '\f003';
+	font-family: fontAwesome;
+	color: #fff;
+	font-size: 18px;
+}
+.sidebar-contact.active{
+	left:0px;
+}
+@media(max-width: 768px){
+	.sidebar-contact{
+		width: 100%;
+		height: 100%;
+		left:-100%;
+	}
+	.sidebar-contact .toggle{
+		top:50%;
+		transform: translateY(-50%);
+	}
+	.sidebar-contact.active .toggle{
+		top:0;
+		right: 0;
+		transform: translateY(0);
+	}
+	.scroll{
+		width: 100%;
+		height: 100%;
+
+		overflow-y: auto;
+
+	}
+	.content{
+		padding:50px 50px;
+	}
+	.scroll::-webkit-scrollbar {
+    display: none;
+}
+}
 
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
