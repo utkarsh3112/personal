@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 @import url("fontawesome-4.5.0.min.css");
 @import url("framework.css");
@@ -122,7 +123,15 @@
 --------------------------------------------------------------------------------------------------------------- */
 *, *::before, *::after{transition:all .3s ease-in-out;}
 #mainav form *{transition:none !important;}
-
+* {
+	margin: 0;
+	padding: 0;
+  }
+  
+  html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+  }
 
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -398,11 +407,11 @@ table a, #comments a{background-color:inherit;}
 	.font-x3{font-size:1.6rem;}
 }
 
-
-.gallery-block{padding-bottom: 60px; padding-top: 60px;}
+h1{font-weight: bold;font-size: 4rem; text-transform: uppercase; text-align: center;padding-top:60px;}
+.gallery-block{padding-bottom: 60px; padding-top: 10px;}
 .gallery-block .heading{margin-bottom: 50px; text-align: center;}
 
-.gallery-block h1{font-weight: bold;font-size: 4rem; text-transform: uppercase; text-align: center;}
+
 
 .gallery-block.cards-gallery h3{font-size: 20px; font-weight: bold;}
 
@@ -424,3 +433,60 @@ table a, #comments a{background-color:inherit;}
 	    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
 	}
 }
+
+.main{
+
+	margin: 2%;
+   }
+   
+   .card{
+		width: 20%;
+		display: inline-block;
+		box-shadow: 2px 2px 20px black;
+		border-radius: 5px; 
+		margin: 2%;
+	   }
+   
+   .image img{
+	 width: 100%;
+	 border-top-right-radius: 5px;
+	 border-top-left-radius: 5px;
+	 
+   
+	
+	}
+   
+   .title{
+	
+	 text-align: center;
+	 padding: 10px;
+	 
+	}
+   
+   h1{
+	 font-size: 20px;
+	}
+   
+   .des{
+	 padding: 3px;
+	 text-align: center;
+	
+	 padding-top: 10px;
+		   border-bottom-right-radius: 5px;
+	 border-bottom-left-radius: 5px;
+   }
+   button{
+	 margin-top: 40px;
+	 margin-bottom: 10px;
+	 background-color: white;
+	 border: 1px solid black;
+	 border-radius: 5px;
+	 padding:10px;
+   }
+   button:hover{
+	 background-color: black;
+	 color: white;
+	 transition: .5s;
+	 cursor: pointer;
+   }
+   
