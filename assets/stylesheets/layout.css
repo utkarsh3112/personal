@@ -84,7 +84,7 @@
 #testimonials li{}
 #testimonials li:last-child{margin-bottom:0;}/* Used in mobile devices */
 #testimonials li blockquote{display:block;  width:100%; margin:0 0 30px 0; padding:30px; line-height:1.4; z-index:1;}
-#testimonials li blockquote::before{display:block; position:absolute; top:-15px; left:15px; padding:0 8px; font-family:"FontAwesome"; font-size:22px; content:"\f10d";}
+#testimonials li blockquote::before{display:block; top:-15px; left:15px; padding:0 8px; font-family:"FontAwesome"; font-size:22px; content:"\f10d";}
 #testimonials li blockquote::after{display:block; position:absolute; bottom:0; left:25px; margin-bottom:-18px; content:""; border:solid; border-width:18px 0 18px 18px; border-color:transparent;}
 #testimonials li figure{}
 #testimonials li figure img{float:left; margin-right:15px;}
@@ -109,7 +109,7 @@
 #footer .contact{}
 #footer .contact.linklist li, #footer .contact.linklist li:last-child{padding-left:40px;}
 #footer .contact li *{margin:0; padding:0; line-height:1.6;}
-#footer .contact li i{display:block; position:absolute; top:0; left:0; width:30px; font-size:16px; text-align:center;}
+#footer .contact li i{display:block;top:0; left:0; width:30px; font-size:16px; text-align:center;}
 
 
 /* Copyright
@@ -656,10 +656,10 @@ table a, #comments a{background-color:inherit;}
 		background-image: url('https://images.pexels.com/photos/6853517/pexels-photo-6853517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	}
 	60.01%{
-		background-image: url('https://images.pexels.com/photos/4587992/pexels-photo-4587992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+		background-image: url('https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	}
 	80%{
-		background-image: url('https://images.pexels.com/photos/4587992/pexels-photo-4587992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+		background-image: url('https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	}
 	80.01%{
 		background-image: url('https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80');
