@@ -243,7 +243,7 @@ a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey ba
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
-.overlay{color:#FFFFFF; background-color:inherit;}
+.overlay{color:#FFFFFF; }
 .overlay::after{color:inherit;}
 
 .btn, .btn.inverse:hover{color:#ffffff; background-color:rgb(173, 168, 168); border-color:#56AED4;}
@@ -620,8 +620,9 @@ table a, #comments a{background-color:inherit;}
 	margin-top: 35px;
 	text-align: center;
   }
-.load{
+  .load{
 	animation: slide 1s;
+	
 
 }
 .slider{
