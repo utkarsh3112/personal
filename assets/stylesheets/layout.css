@@ -647,34 +647,34 @@ table a, #comments a{background-color:inherit;}
 }
 @keyframes slide{
 	0%{
-		background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+		background-image: url('../images/layout/image1.jpg');
 	}
 	20%{
-		background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+		background-image: url('../images/layout/image1.jpg');
 	}
 	20.01%{
-		background-image: url('https://images.pexels.com/photos/5845710/pexels-photo-5845710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+		background-image: url('../images/layout/image2.jpeg');
 	}
 	40%{
-		background-image: url('https://images.pexels.com/photos/5845710/pexels-photo-5845710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+		background-image: url('../images/layout/image2.jpeg');
 	}
 	40.01%{
-		background-image: url('https://images.pexels.com/photos/6853517/pexels-photo-6853517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+		background-image: url('../images/layout/image3.jpg');
 	}
 	60%{
-		background-image: url('https://images.pexels.com/photos/6853517/pexels-photo-6853517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+		background-image: url('../images/layout/image3.jpg');
 	}
 	60.01%{
-		background-image: url('https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+		background-image: url('../images/layout/image4.jpeg');
 	}
 	80%{
-		background-image: url('https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+		background-image: url('../images/layout/image4.jpeg');
 	}
 	80.01%{
-		background-image: url('https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80');
+		background-image: url('../images/layout/image5.jpg');
 	}
 	100%{
-		background-image: url('https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80');
+		background-image: url('../images/layout/image5.jpg');
 	}
 }
 
