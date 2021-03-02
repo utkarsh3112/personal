@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../assets/stylesheets/layout.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script src="https://kit.fontawesome.com/5eef641eb4.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
@@ -16,9 +17,23 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row0">
+<div class="sidebar-contact ">
+  <div class=toggle></div>
+  <div class=scroll>
+    <h2>Contact Us</h2>
+    <form >		
+        
+        <input id="dname" type="name" placeholder="Name"name="">
+        <input type="Email" placeholder="Email"name="">
+        <input type="phone" placeholder="Contact Number"name="">
+        <textarea placeholder="Description"></textarea>
+        <input type="submit" placeholder="Message" name="" value="Send">
+      
+    </form>
+  </div>
+</div>
+<!-- <div class="wrapper row0">
   <div id="topbar" class="hoc clear"> 
-    <!-- ################################################################################################ -->
     <div class="fl_left">
       <ul class="faico clear">
         <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -36,9 +51,8 @@
         <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
       </ul>
     </div>
-    <!-- ################################################################################################ -->
   </div>
-</div>
+</div> -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -52,6 +66,7 @@
     <nav id="mainav" class="fl_right">
       <ul class="clear">
         <li><a href="../index.html">Home</a></li>
+        <li><a href="../menu_pages/aboutUs.html">About US</a></li>
         <li class="active"><a href="../menu_pages/projects.html">Our Projects</a>
           <ul>
             <li><a href="VISWAAYNAM.html">VISWAAYNAM</a></li>
@@ -232,13 +247,13 @@
       </ul>
     </div>
     <div class="one_third">
-      <h6 class="title">egestas diam sollicitudin</h6>
-      <ul class="nospace linklist">
-        <li><a href="#">non fusce quis dictum vitae accumsan</a></li>
-        <li><a href="#">erat in hac habitasse platea dictumst</a></li>
-        <li><a href="#">sed mi arcu mattis gravida feugiat</a></li>
-        <li><a href="#">aliquam nunc etiam neque lobortis</a></li>
-        <li><a href="#">tristique integer nunc eget dictum</a></li>
+      <h6 class="title">Social Media</h6>
+      <ul class="nospace linklist" id="last">
+        <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
       </ul>
     </div>
     <!-- ################################################################################################ -->
@@ -382,4 +397,12 @@ function addActiveStatus(target){
 }
 
 </script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.toggle').click(function(){
+				$('.sidebar-contact').toggleClass('active');
+			})
+		})
+	</script>
 </html>
