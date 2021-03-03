@@ -695,7 +695,22 @@ div.card-body{
     margin: 0px 3px 0px 10px;
     padding-left: 35px;
 }
-
+@media screen and (max-width:1000px){
+	div.card-body{
+		width: 100%;
+		margin: 0px 3px 0px 10px;
+    	padding:20px;
+	}
+	.main1 h1{
+		font-size: 40px;
+	}
+	aside{
+		
+    height: 325px;
+    width: 100%;
+    padding: inherit;
+	}
+}
 .c-carousel{
 	height: 35vh;
     width: 100%;
