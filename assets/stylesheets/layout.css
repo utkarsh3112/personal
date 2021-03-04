@@ -107,7 +107,7 @@
 #footer .linklist li, #footer .linklist li::after{clear:both;}
 
 #footer .contact{}
-#footer .contact.linklist li, #footer .contact.linklist li:last-child{padding-left:40px;}
+#footer .contact.linklist li, #footer .contact.linklist li:last-child{}
 #footer .contact li *{margin:0; padding:0; line-height:1.6;}
 #footer .contact li i{display:block; top:0; left:0; width:30px; font-size:16px; text-align:center;}
 
@@ -710,9 +710,12 @@ div.card-body{
     width: 100%;
     padding: inherit;
 	}
+	.main1{
+		padding-bottom: 45px;
+	}
 }
 .c-carousel{
-	height: 35vh;
+	height: 20vh;
     width: 100%;
     position: relative;
     display: flex;
@@ -781,6 +784,7 @@ div.card-body{
 	display:flex;
 	align-items: center;
 	justify-content: space-around;
+	padding-inline-start: 0;
   }
   .c-carousel-indicator-li{
 	position:relative;
@@ -800,6 +804,10 @@ div.card-body{
 	  width: 90%;
 	  margin: auto;
   }
+  
+  #applex2{
+	  width: 45%;
+  }
 .main1 h1{
 	padding-bottom: 100px;
 }
@@ -810,4 +818,269 @@ div.card-body{
 }
 #proj-contain2,#proj-contain3{
 	box-shadow: none;
+}
+.container1 {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+
+#contact2 input[type="text"], #contact2 input[type="email"], #contact2 input[type="tel"], #contact2 input[type="url"], #contact2 textarea, #contact2 button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact2 {
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact2 h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact2 h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact2 input[type="text"], #contact2 input[type="email"], #contact2 input[type="tel"], #contact2 input[type="url"], #contact2 textarea {
+	width:100%;
+	border:1px solid #CCC;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact2 input[type="text"]:hover, #contact2 input[type="email"]:hover, #contact2 input[type="tel"]:hover, #contact2 input[type="url"]:hover, #contact2 textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact2 textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact2 button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#00ACEE;
+	color:black;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+
+
+#contact2 button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact2 input:focus, #contact2 textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+#page_contact{
+	background-color: rgba(0,0,0,0.05);
+	margin: 25px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu li a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    /* line-height: 70px; */
+}
+
+
+
+label {
+    
+    font-size: 26px;
+    /* line-height: 70px; */
+    display: none;
+
+    float: right;
+	width: 100%;
+    margin: 0;
+}
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+    label {
+        display: block;
+        cursor: pointer;
+		text-align: center;
+		padding: 5px;
+    }
+	.fl_right{
+		float: inherit;
+	}
+	.fl_left{
+		float: inherit;
+	}
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu li a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+		
+     
+    }
+	.menu li{
+		width: 100%;
+	}
+    #toggle:checked + .menu {
+        display: block;
+    }
+	#mainav ul li:hover > ul{visibility:visible; opacity:1;}   
+}
+div.card-body1{
+	float: left;
+    margin: 0px 3px 0px 10px;
+    padding-left: 35px;
+}
+.contact4{
+	background:black;
+}
+#applex4{
+	width: 50%;
+}
+#applex5{
+	width: 50%;
+}
+
+
+#contact1 input[type="text"], #contact1 input[type="email"], #contact1 input[type="tel"], #contact1 input[type="url"], #contact1 textarea, #contact1 button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+
+
+#contact1 h3 {
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact1 h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact1 input[type="text"], #contact1 input[type="email"], #contact1 input[type="tel"], #contact1 input[type="url"], #contact1 textarea {
+	width:100%;
+	border:1px solid #CCC;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact1 input[type="text"]:hover, #contact1 input[type="email"]:hover, #contact1 input[type="tel"]:hover, #contact1 input[type="url"]:hover, #contact1 textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact1 textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact1 button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#00ACEE;
+	color:black;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+
+
+#contact1 button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact1 input:focus, #contact1 textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+#page_contact{
+	background-color: rgba(0,0,0,0.05);
+	margin: 25px;
+}
+#flexybox{
+	display: flex; 
+	width: 90%;
+	margin: auto;
+}
+@media screen and (max-width:1000px){
+	#flexybox{
+		display: block;
+	}
+	#applex2,#applex3,#applex4,#applex5{
+		width: 100%;
+	}
+	.container1{
+		margin:0;
+	}
+
 }
