@@ -943,7 +943,7 @@ label {
     label {
         display: block;
         cursor: pointer;
-		text-align: center;
+		text-align: right;
 		padding: 5px;
     }
 	.fl_right{
@@ -953,13 +953,12 @@ label {
 		float: inherit;
 	}
     .menu {
-        text-align: center;
+        text-align: right;
         width: 100%;
         display: none;
     }
     .menu li a {
         display: block;
-        border-bottom: 1px solid #EAEAEB;
         margin: 0;
 		
      
