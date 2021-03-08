@@ -1036,7 +1036,7 @@ fieldset {
 	width:100%;
 	border:none;
 	background:#00ACEE;
-	color:black;
+	color:#FFFFFF;
 	margin:0 0 5px;
 	padding:10px;
 	font-size:15px;
@@ -1078,8 +1078,28 @@ fieldset {
 	#applex2,#applex3,#applex4,#applex5{
 		width: 100%;
 	}
-	.container1{
-		margin:0;
-	}
-
+	
+}
+#broch{
+	background: #00ACEE;
+    padding: 4%;
+    width: 60%;
+    margin: auto;
+    padding-top: 5px;
+}
+#brochure{
+	
+    display: flex;
+    justify-content: space-around; 
+}
+#broch p{
+	text-align: center;
+    font-size: large;
+    color: white;
+}
+#broch button{
+	background-color: darkgrey;
+    color: white;
+    padding: 7%;
+    width: max-content;
 }
