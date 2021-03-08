@@ -214,7 +214,7 @@
                     <div class="card border-0 " id="proj-contain3">
                         <a class="lightbox" href="#"><img src="" class="card-img-top"></a>
                         <div class="card-body1">
-                            <h2><b>Location:</b> Shakhapur, Telangana 509382</h2>
+                            <h2><b>Location:</b> <br>Survey no. 121/ 1, 2, 122/ 1, 7 & A2,<br> Shakapur Gram Panchayat, Addakal Mandal, <br>Mahabubnagar district-509382</h2>
                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3824.871157466772!2d77.93902831486464!3d16.53260098859618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDMxJzU3LjQiTiA3N8KwNTYnMjguNCJF!5e0!3m2!1sen!2sin!4v1614879001208!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                     </div>
@@ -225,23 +225,23 @@
                           <a class="lightbox" href="#"><img src="" class="card-img-top"></a>
                           <div class="card-body1">
                             <div class="container1" style="height: 500px;">  
-                              <form id="contact1" action="" method="post">
+                              <form id="contact1" action="https://formspree.io/f/xqkgraqp" method="post">
                                 <h3 style="text-align: center;">Contact Us<hr style="width: 40%;"></h3>
                                 <br>
                                 <fieldset>
-                                  <input placeholder="Name" type="text" tabindex="1" required autofocus>
+                                  <input placeholder="Name" name="Name" type="text" tabindex="1" required autofocus id="1">
                                 </fieldset>
                                 <fieldset>
-                                  <input placeholder="Email" type="email" tabindex="2" required>
+                                  <input placeholder="Email" name="Email" type="email" tabindex="2" required id="2">
                                 </fieldset>
                                 <fieldset>
-                                  <input placeholder="Contact Number" type="tel" tabindex="3" required>
+                                  <input placeholder="Contact Number" name="Contact Number" type="tel" tabindex="3" required id="3">
                                 </fieldset>
                                 <fieldset>
-                                  <textarea placeholder="Description" tabindex="5" required></textarea>
+                                  <textarea placeholder="Description" name="description" tabindex="5" required id="4"></textarea>
                                 </fieldset>
                                 <fieldset>
-                                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                                  <button name="submit" type="submit" name="fsubmit" data-submit="...Sending">Submit</button>
                                 </fieldset>
                               </form>
                              
@@ -260,8 +260,8 @@
             <div id="broch">
               <p>Here you can download Brochure in PDF format</p>
               <div id="brochure">
-                <div><a href="../assets/brochure/Viswaayanm Brochure.pdf" download="Viswaayanm Brochure"><button>Download Brochure in English</button></a></div>
-                <div><a href="../assets/brochure/Viswaayanm Brochure_2.pdf" download="Viswaayanm Brochure_2"><button>Download Brochure in Tamil</button></a></div>
+                <div><a href="../assets/brochure/Viswaayanm Brochure.pdf"  target="_blank" ><button >Download Brochure in English</button></a></div>
+                <div><a href="../assets/brochure/Viswaayanm Brochure_2.pdf" target="_blank"  ><button>Download Brochure in Telugu</button></a></div>
               </div>
               
             
@@ -271,6 +271,9 @@
 </section>
 </p>
 </div>
+
+
+
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -454,6 +457,7 @@ function addActiveStatus(target){
 }
 
 </script>
+
 
 
 </html>
