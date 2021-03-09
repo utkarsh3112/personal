@@ -1106,3 +1106,15 @@ fieldset {
     border-radius: 5px;
     background: linear-gradient(to top left, #00ACEE 40%, #9ed3ff 100%);
 }
+@media screen and (max-width:700px){
+	#brochure{
+		display:block;
+	}
+	#brochure div{
+		margin-bottom: 20px;
+	}
+	#broch button{
+		margin: auto;
+		padding: 3%;
+	}
+}
