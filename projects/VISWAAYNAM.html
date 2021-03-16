@@ -56,11 +56,11 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row1">
+<div class="wrapper row1" id="navbar">
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="../index.html">Real Estate Business</a></h1>
+      <h1><a href="../index.html">VSEL Real Estate</a></h1>
     </div>
     <!-- ################################################################################################ -->
     <nav id="mainav" class="fl_right">
@@ -98,9 +98,9 @@
                     <div class="card border-0 " id="proj-contain1">
                         <a class="lightbox" href="#"><img src="" class="card-img-top"></a>
                         <div class="main1" style="height: auto;">
-                          <h1>VISWAAYNAM</h1>
+                          <h1 class="title8">VISWAAYNAM</h1>
                           <div class="card-body">
-                              <h3>Description:</h3>
+                              <h3 class="title8">Description:</h3>
                               <p><strong>VISWAAYNAM</strong> VISWAAYANM is a DTCP approved Plotting Development project under the management of M/s. Viswa Santosh Enterprises Ltd. Our project gives you the added advantage of immediate construction. Covering almost 15 acres, VISWAAYANM studded parks, peaceful wetlands, vibrant community spaces and lush green play areas are all designed to bring people together. From relaxing with friends around a picnic to playing with the kids, exploring the environment or strolling by the flora, VISWAAYANM brings people into harmony with nature.
                                 <br><br>The project is also surrounded by various Industries, world-Class Solar plants, and upcoming Mini Airport. Also, the project is having excellent connectivity with major town of Mahaboobnagar, NH 44 Bengaluru – Hyderabad Expressway and Southern Dedicated Freight Corridor.
                                 <br><br>Turn your dreams into reality with our luxurious offerings. VISWAAYANM offers ready to possession plots that give you an opportunity to construct a home of your choice. These plots are a perfect investment opportunity and come with an exclusive range of best-in-class amenities. Create your own kingdom of dreams amidst the fastest developing corridor, sheer greenery and ready-to-use infrastructure.
@@ -161,7 +161,7 @@
                         <a class="lightbox" href="#"><img src="" class="card-img-top"></a>
                         <div class="card-body1">
                             
-                             <h3>Project Highlights:</h3>
+                             <h3 class="title8">Project Highlights:</h3>
                              <li>100% Vastu.</li>
                              <li>Ready-to-use infrastructure and best-in-class amenities</li>
                              <li>Plotted Gated Community</li>
@@ -190,7 +190,7 @@
                       <div class="card border-0" id="proj-contain2">
                           <a class="lightbox" href="#"><img src="" class="card-img-top"></a>
                           <div class="card-body1">
-                              <h3>Size Offered:</h3>
+                              <h3 class="title8">Size Offered:</h3>
                                                          
                               From 180 square yards to 2000 square yards <br> (Both commercial and residential)
                               <br>
@@ -201,7 +201,7 @@
                 </div>
                 <div id="flexybox">
                   <div id="broch">
-                    <p>Here you can download Brochure in PDF format</p>
+                    <p class="title8">Here you can download Brochure in PDF format</p>
                     <div id="brochure">
                       <div><a href="../assets/brochure/Viswaayanm Brochure.pdf"  target="_blank" ><button >Download Brochure in English</button></a></div>
                       <div><a href="../assets/brochure/Viswaayanm Brochure_2.pdf" target="_blank"  ><button>Download Brochure in Telugu</button></a></div>
@@ -228,7 +228,7 @@
                           <div class="card-body1">
                             <div class="container1" style="height: 500px;">  
                               <form id="contact1" action="https://formspree.io/f/xqkgraqp" method="post" target="_blank">
-                                <h3 style="text-align: center;">Contact Us<hr style="width: 40%;"></h3>
+                                <h3 style="text-align: center;" class="title8">Contact Us<hr style="width: 40%;"></h3>
                                 <br>
                                 <fieldset>
                                   <input placeholder="Name" name="Name" type="text" tabindex="1" required autofocus id="1">
@@ -310,7 +310,7 @@
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p >Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
     
     <!-- ################################################################################################ -->
   </div>
@@ -441,6 +441,18 @@ function addActiveStatus(target){
   indicatorLi[target].classList.add("active");
 }
 
+</script>
+<script type="text/javascript">
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-150px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
 </script>
 
 
