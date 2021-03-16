@@ -29,7 +29,7 @@ body{
 --------------------------------------------------------------------------------------------------------------- */
 #header{padding:30px 0 0 0;}
 
-#header #logo{margin-top:0px; margin-left: 20px;}
+#header #logo{margin-top:0px; margin-left: 0;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase; color: #00ACEE;}
 
 
@@ -100,9 +100,10 @@ body{
 
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
-#footer{padding:80px 0;}
+#footer{padding:50px 0;}
 
-#footer .title{margin:0 0 50px 0; padding:0; font-size:1.2rem; text-transform:uppercase;}
+#footer .title{margin:0 0 50px 0; padding:0; font-size:1.2rem; text-transform:uppercase; color: white;}
+#footer .regular{margin:0 0 50px 0; padding:0; font-size:1.0rem; color: white;}
 
 #footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0;}
 #footer .linklist li:last-child{margin:0; padding:0; border:none;}
@@ -117,8 +118,8 @@ body{
 
 /* Copyright
 --------------------------------------------------------------------------------------------------------------- */
-#copyright{padding:20px 0; text-align: center;}
-#copyright *{margin:0; padding:0;}
+#copyright{width:100% ;padding:10px 0; text-align: center; background-color: white;}
+#copyright *{margin:0; padding:0; font-size: 15px}
 
 
 /* Transition Fade
@@ -342,8 +343,8 @@ table a, #comments a{background-color:inherit;}
 
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width:978px){
-	.hoc{max-width:978px;}
+@media screen and (min-width:1178px){
+	.hoc{max-width:1178px;}
 }
 
 
@@ -376,7 +377,7 @@ table a, #comments a{background-color:inherit;}
 }
 
 
-@media screen and (max-width:750px){
+@media screen and (max-width:950px){
 	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
 	.fl_left, .fl_right{}
 	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
@@ -403,7 +404,8 @@ table a, #comments a{background-color:inherit;}
 	color: #000000;
 }
 .foot{
-	background-image: url('../images/footer/footer-bg.png');
+	background-image: url("../assets/images/footer/buildings.png");
+	background-color: #212121; /* Used if the image is unavailable */
     background-repeat: no-repeat;
     background-size: cover;
     border-top: 1px solid #e1ecff;
@@ -411,6 +413,7 @@ table a, #comments a{background-color:inherit;}
 }
 #lastimg{
 	width: 40px;
+	height: 40px;
 }
 
 @media screen and (max-width:450px){}
@@ -1166,5 +1169,10 @@ main{
 	color: black;
 }
 .title8{
+	font-weight: bold;
+}
+
+.title9{
+	color: blue;
 	font-weight: bold;
 }
