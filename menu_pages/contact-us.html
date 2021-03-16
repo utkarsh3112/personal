@@ -18,7 +18,7 @@ body {
 </head>
 <body id="top">
 
-<div class="wrapper row1">
+<div class="wrapper row1" id="navbar">
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
@@ -51,7 +51,7 @@ body {
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="content"></div>
-<h1>Contact Us</h1>
+<h1 class="title8 t8">Contact Us</h1>
 <hr>
 
   <section class="hoc container clear"> 
@@ -72,7 +72,8 @@ body {
       <!-- ################################################################################################ -->
       <div class="container1" style="height: 500px;">  
         <form id="contact2" action="https://formspree.io/f/xqkgraqp" method="post" class="contact4" target="_blank">
-            <h3 style="text-align: center;">Contact Us<hr style="width: 40%;"></h3>
+            <h3 style="text-align: center;" class="title8">Contact Us<hr style="width: 40%;"></h3>
+            
             <br>
             <fieldset>
               <input placeholder="Name" name="Name" type="text" tabindex="1" required autofocus id="1">
@@ -106,11 +107,11 @@ body {
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4">
+<div class="wrapper row4 foot">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="one_third first">
-      <h6 class="title">Contact Us</h6>
+      <h6 class="title title8">Contact Us</h6>
       <ul class="nospace linklist contact">
         <li></i>
           <address> <i class="material-icons">add_location</i>
@@ -123,13 +124,13 @@ body {
     </div>
     
     <div class="one_third">
-      <h6 class="title">Social Media</h6>
+      <h6 class="title title8">Social Media</h6>
       <ul class="nospace linklist" id="last">
-        <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus-square ic1"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook-square ic1"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin ic1"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter-square ic1"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram ic1"></i></a></li>
       </ul>
     </div>
     <!-- ################################################################################################ -->
@@ -141,7 +142,7 @@ body {
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="http://applex.in">applex.in</a></p>
+    <p >Copyright &copy; 2018 - All Rights Reserved -  <a href="http://applex.in"><img src="/assets/images/footer/OIP-removebg-preview 1 (1).png" id="lastimg">applex.in</a></p>
     
     <!-- ################################################################################################ -->
   </div>
@@ -158,4 +159,16 @@ body {
 <script src="layout/scripts/jquery.placeholder.min.js"></script>
 <!-- / IE9 Placeholder Support -->
 </body>
+<script type="text/javascript">
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-150px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+</script>
 </html>
