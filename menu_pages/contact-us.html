@@ -18,7 +18,7 @@ body {
 </head>
 <body id="top">
 
-<div class="wrapper row1">
+<div class="wrapper row1" id="navbar">
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
@@ -51,7 +51,7 @@ body {
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="content"></div>
-<h1>Contact Us</h1>
+<h1 class="title8">Contact Us</h1>
 <hr>
 
   <section class="hoc container clear"> 
@@ -72,7 +72,8 @@ body {
       <!-- ################################################################################################ -->
       <div class="container1" style="height: 500px;">  
         <form id="contact2" action="https://formspree.io/f/xqkgraqp" method="post" class="contact4" target="_blank">
-            <h3 style="text-align: center;">Contact Us<hr style="width: 40%;"></h3>
+            <h3 style="text-align: center;" class="title8">Contact Us<hr style="width: 40%;"></h3>
+            
             <br>
             <fieldset>
               <input placeholder="Name" name="Name" type="text" tabindex="1" required autofocus id="1">
@@ -141,7 +142,7 @@ body {
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="http://applex.in">applex.in</a></p>
+    <p >Copyright &copy; 2018 - All Rights Reserved - <a href="http://applex.in">applex.in</a></p>
     
     <!-- ################################################################################################ -->
   </div>
@@ -158,4 +159,16 @@ body {
 <script src="layout/scripts/jquery.placeholder.min.js"></script>
 <!-- / IE9 Placeholder Support -->
 </body>
+<script type="text/javascript">
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-150px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+</script>
 </html>
