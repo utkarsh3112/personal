@@ -29,7 +29,7 @@ body{
 --------------------------------------------------------------------------------------------------------------- */
 #header{padding:30px 0 0 0;}
 
-#header #logo{margin-top:0px;}
+#header #logo{margin-top:0px; margin-left: 20px;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase; color: #00ACEE;}
 
 
@@ -104,7 +104,7 @@ body{
 
 #footer .title{margin:0 0 50px 0; padding:0; font-size:1.2rem; text-transform:uppercase;}
 
-#footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
+#footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0;}
 #footer .linklist li:last-child{margin:0; padding:0; border:none;}
 #footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
 #footer .linklist li, #footer .linklist li::after{clear:both;}
@@ -263,12 +263,15 @@ article:hover .icon::before, article:hover .icon::after{}
 .row0{color:#888888; background-color:#FFFFFF;}
 .row1{color:#000000; background-color:#FFFFFF;}
 .row2{color:#888888; background-color:#F4F4F4;}
-.row3{color:#888888; background-color:#FFFFFF;}
-.row4{color:#FFFFFF; background-color:#292929;}
+.row3{color:#888888; background-color:#FFFFFF;margin: 2rem;}
+.row5{ background-color: azure;}
 .row5, .row5 a{color:#000000;}
 #navbar{
 	position:sticky;
 	z-index: 10;
+}
+.t8{
+	font-size: 6vh;
 }
 .introtxt{
 	background: rgba(255,255,255,.6);
@@ -293,7 +296,7 @@ article:hover .icon::before, article:hover .icon::after{}
 
 
 /* Footer */
-#footer .title{color:#888888;}
+#footer .title{}
 #footer .linklist li{border-color:#141414;}
 
 
@@ -396,6 +399,19 @@ table a, #comments a{background-color:inherit;}
 	color: white; 
 	font-size: 4vh;
 }
+.ic1{
+	color: #000000;
+}
+.foot{
+	background-image: url('../images/footer/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid #e1ecff;
+    border-bottom: 1px solid #e1ecff;
+}
+#lastimg{
+	width: 40px;
+}
 
 @media screen and (max-width:450px){}
 
@@ -422,7 +438,7 @@ table a, #comments a{background-color:inherit;}
 .gallery-block.cards-gallery h3{font-size: 20px; font-weight: bold;}
 
 .gallery-block.cards-gallery .card{transition: 0.4s easy;}
-.gallery-block.cards-gallery .card img{box-shadow: 0px 2px 10px rgba(0,0,0,0.15); height: 250px;}
+.gallery-block.cards-gallery .card img{box-shadow: 0px 2px 10px rgba(0,0,0,0.15); height: inherit;}
 .gallery-block.cards-gallery .card-body{text-align: left;}
 .gallery-block.cards-gallery .card-body p{font-size: 15px;}
 .gallery-block.cards-gallery a{color:#212529; }
@@ -717,25 +733,35 @@ div.card-body{
 		margin: 0px 3px 0px 10px;
     	padding:20px;
 	}
-	.main1 h1{
-		font-size: 40px;
-	}
+	
 	aside{
 		
-    height: 325px;
     width: 100%;
     padding: inherit;
 	}
 	.main1{
 		padding-bottom: 45px;
 	}
+	
+	
+	
 }
+
+@media screen and (max-width:600px){
+	.main1 h1{
+		font-size: 40px;
+		padding-bottom: 50px !important;
+	}
+}
+
 .c-carousel{
 	height: 35vh;
     width: 100%;
     position: relative;
     display: flex;
   }
+
+
   .c-carousel-item{
 	position:absolute;
 	left:0;
@@ -783,10 +809,10 @@ div.card-body{
   }
   .c-carousel-indicators{
 	background-color:rgba(0,0,0,0.2);
-	position:absolute;
+	/* position:absolute;
 	top:100%;
 	left:50%;
-	transform:translateX(-50%);
+	transform:translateX(-50%); */
 	width:100%;
 	height:auto;
 	display:flex;
@@ -847,7 +873,11 @@ div.card-body{
 
 #contact2 {
 	padding:25px;
-	margin:50px 0;
+}
+.card2{
+	background-color: rgba(0,0,0,0.05);
+    padding: 5vh;
+    padding-top: 0;
 }
 
 
