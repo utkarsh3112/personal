@@ -26,13 +26,13 @@
 		<div class=toggle></div>
 		<div class=scroll>
 			<h2>Contact Us</h2>
-			<form >		
+			<form action="https://formspree.io/f/xqkgraqp" method="post"  target="_blank" >		
 			  	
-			    <input id="dname" type="name" placeholder="Name"name="">
-			    <input type="Email" placeholder="Email"name="">
+			    <input id="dname" type="name" placeholder="Name"name="Name">
+			    <input type="Email" placeholder="Email"name="Email">
 			    <input type="phone" placeholder="Contact Number"name="">
-			    <textarea placeholder="Description"></textarea>
-			    <input type="submit" placeholder="Message" name="" value="Send">
+			    <textarea placeholder="Description" name="Message"></textarea>
+			    <input type="submit" placeholder="Message" value="Send">
 			  
 			</form>
 		</div>
@@ -41,7 +41,7 @@
 
 
   <!-- ################################################################################################ -->
-    <div class="wrapper row1">
+    <div class="wrapper row1" id="navbar">
       <header id="header" class="hoc clear"> 
         <!-- ################################################################################################ -->
         <div id="logo" class="fl_left">
@@ -92,7 +92,7 @@
       <main class="hoc container clear"> 
         <!-- main body -->
         <!-- ################################################################################################ -->
-        <h2 class="font-x3 uppercase btmspace-80 underlined">An Incredible Opportunity<br>to Invest with Viswaayanm</h2>
+        <h2 class="font-x3 uppercase btmspace-80 underlined title8">An Incredible Opportunity<br>to Invest with Viswaayanm</h2>
 
         <p>Our Project – Viswaayanm Prime Plots is located on NH44 (Hyderabad to Bangalore highway) @ Addakal L & T Toll gate. 
           NH44 is the longest National Highway in India and also is the fastest growing corridor. 
@@ -161,7 +161,7 @@
     <div class="wrapper row5">
       <div id="copyright" class="hoc clear"> 
         <!-- ################################################################################################ -->
-        <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="http://applex.in">applex.in</a></p>
+        <p >Copyright &copy; 2018 - All Rights Reserved - <a href="http://applex.in">applex.in</a></p>
         
         <!-- ################################################################################################ -->
       </div>
@@ -186,6 +186,19 @@
 			})
 		})
 	</script>
+  
+  <script type="text/javascript">
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-150px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
  
 
 </html>
