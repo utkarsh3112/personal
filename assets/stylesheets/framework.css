@@ -5,14 +5,16 @@ html{overflow-y:scroll; overflow-x:hidden;}
 html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 
 *, *::before, *::after{box-sizing:border-box;}
-
+#last{
+    display: flex; justify-content: space-between;
+}
 .bold{font-weight:bold;}
 .center{text-align:center;}
 .right{text-align:right;}
 .uppercase{text-transform:uppercase;}
 .capitalise{text-transform:capitalize;}
 .hidden{display:none;}
-.nospace{margin:0; padding:0; list-style:none;}
+.nospace{margin:0; padding:0; list-style:none; }
 .block{display:block;}
 .inline *{display:inline-block;}
 .inline *:last-child{margin-right:0;}
@@ -94,10 +96,10 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 --------------------------------------------------------------------------------------------------------------- */
 .one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{float:right; margin:0 0 0 3.06748466257669%; list-style:none;}
 
-.first{margin-left:20; clear:left;}
+.first{margin-left:20px; clear:left;}
 
 .one_quarter{width:22.69938650306748%;}
-.one_third{float:right; width:25.3333333333%; margin-left: 2rem;}
+.one_third{float:left; width:25.3333333333%; margin-left: 5rem;}
 .one_half, .two_quarter{width:48.46625766871166%;}
 .two_third{width:65.6441717791411%;}
 .three_quarter{width:74.23312883435584%;}
